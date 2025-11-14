@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Tugas Mingguan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>List Tugas Mata Kuliah (1 Pekan)</h2>
+
+        <div class="input-area">
+            <input type="text" id="tugasInput" placeholder="Masukkan nama tugas...">
+            <button onclick="tambahTugas()">Tambah</button>
+        </div>
+
+        <h3>Belum Selesai</h3>
+        <ul id="belumList"></ul>
+
+        <h3>Sudah Selesai</h3>
+        <ul id="selesaiList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
